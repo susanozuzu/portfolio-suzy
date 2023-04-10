@@ -10,13 +10,14 @@
     "start": "next start",
     "export": "yarn run build && next export && mv out _static"
   },
-
   "engines": {
     "node": "14.x"
   },
   "dependencies": {
     "model": "^0.0.6",
+    "modules": "^0.4.0",
     "next": "^13.1.0",
+    "next.js": "^1.0.3",
     "node": "^19.8.1",
     "prism-theme-night-owl": "^1.4.0",
     "prismjs": "^1.29.0",

@@ -37,4 +37,5 @@ const pageTypes: types.IPageType[] = [
   },
 ]
 
+
 export default pageTypes
