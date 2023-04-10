@@ -7,10 +7,17 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "yarn run build && next export && mv out _static"
+  },
+
+  "engines": {
+    "node": "14.x"
   },
   "dependencies": {
+    "model": "^0.0.6",
     "next": "^13.1.0",
+    "node": "^19.8.1",
     "prism-theme-night-owl": "^1.4.0",
     "prismjs": "^1.29.0",
     "react": "^18.2.0",
